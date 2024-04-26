@@ -1,0 +1,8 @@
+[workspace]
+members = ["sink", "faucet"]
+resolver = "2"
+
+[workspace.dependencies]
+tokio = { version = "1", features = ["full"] }
+once_cell = "1.19.0"
+speedy = "0.8.7"
