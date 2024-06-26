@@ -13,10 +13,3 @@
    $ cd sink
    $ cargo run -- <start_port> <end_port>
    ```
-	
- - Start the faucet server
-
-	```bash
-	$ cd faucet
-	$ cargo run -- <start_port> <end_port> <data_file> <packet_size>
-	```
